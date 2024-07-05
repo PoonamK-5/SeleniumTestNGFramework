@@ -1,0 +1,9 @@
+<suite name="UploadTestSuite" verbose="1">
+
+	<test name="UploadTests">
+		<classes>
+			<class name="com.herouapp.theinternet.uploadtests.UploadTests" />
+		</classes>
+	</test>
+
+</suite>

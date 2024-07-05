@@ -1,0 +1,18 @@
+<suite name="HoversTestSuite" verbose="1">
+
+
+	<test name="HoversTests-CH">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.herouapp.theinternet.hoverstests.HoversTests" />
+		</classes>
+	</test>
+
+	<!--<test name="HoversTests-FF">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.herouapp.theinternet.hoverstests.HoversTests" />
+		</classes>
+	</test>-->
+
+</suite>

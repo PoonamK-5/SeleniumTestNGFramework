@@ -1,0 +1,9 @@
+<suite name="JSErrorTestSuite" verbose="1">
+
+	<test name="JSErrorTests">
+		<classes>
+			<class name="com.herouapp.theinternet.jserrortests.JSErrorTests" />
+		</classes>
+	</test>
+
+</suite>

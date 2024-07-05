@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JSErrorTestSuite]">
+  <test thread-count="5" name="JSErrorTests(failed)">
+    <classes>
+      <class name="com.herouapp.theinternet.jserrortests.JSErrorTests">
+        <methods>
+          <include name="jsErrorTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herouapp.theinternet.jserrortests.JSErrorTests -->
+    </classes>
+  </test> <!-- JSErrorTests(failed) -->
+</suite> <!-- Failed suite [JSErrorTestSuite] -->

@@ -1,0 +1,25 @@
+<suite name="SmokeTestSuite" verbose="1">
+
+	<listeners>
+		<listener class-name="com.herouapp.theinternet.base.TestListener"></listener>
+	</listeners>
+	
+	<test name="PositiveLogInTest">
+		<classes>
+			<class name="com.herouapp.theinternet.loginpagetests.PositiveLogInTests" />
+		</classes>
+	</test>
+	
+	<test name="AlertsTests">
+		<classes>
+			<class name="com.herouapp.theinternet.alertstests.AlertsTests" />
+		</classes>
+	</test>
+	
+	<test name="UploadTests">
+		<classes>
+			<class name="com.herouapp.theinternet.uploadtests.UploadTests" />
+		</classes>
+	</test>
+	
+</suite>
